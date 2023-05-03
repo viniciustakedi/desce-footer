@@ -15,6 +15,13 @@ body {
   height: 100%;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -24,14 +31,8 @@ nav {
   background-color: red;
 }
 
-.teste {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-}
 
-.main {
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
